@@ -1,0 +1,59 @@
+{
+  "Ridge": {
+    "library": "scikit-learn",
+    "best_params": {
+      "alpha": 0.1
+    },
+    "test": {
+      "RMSE": 2929.5,
+      "MAE": 1616.5,
+      "MAPE_pct": 9.56,
+      "R2": 0.9129
+    },
+    "fit_seconds": 0.7,
+    "predict_seconds": 0.04
+  },
+  "Random Forest": {
+    "library": "scikit-learn",
+    "best_params": {
+      "max_depth": 25
+    },
+    "test": {
+      "RMSE": 2161.5,
+      "MAE": 1149.0,
+      "MAPE_pct": 7.09,
+      "R2": 0.9526
+    },
+    "fit_seconds": 136.3,
+    "predict_seconds": 0.12
+  },
+  "Gradient Boosting": {
+    "library": "scikit-learn",
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63
+    },
+    "test": {
+      "RMSE": 2037.9,
+      "MAE": 1103.7,
+      "MAPE_pct": 6.77,
+      "R2": 0.9579
+    },
+    "fit_seconds": 19.6,
+    "predict_seconds": 0.59
+  },
+  "Gradient Boosting (tanpa fitur label gambar)": {
+    "library": "scikit-learn",
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 63
+    },
+    "test": {
+      "RMSE": 1991.8,
+      "MAE": 1083.8,
+      "MAPE_pct": 6.68,
+      "R2": 0.9597
+    },
+    "fit_seconds": 17.8
+  }
+}

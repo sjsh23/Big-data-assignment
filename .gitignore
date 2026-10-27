@@ -1,0 +1,37 @@
+# ===== Environment Python =====
+.venv/
+__pycache__/
+*.pyc
+
+# ===== Dataset asli dari Kaggle (besar, unduh dari link di README) =====
+car damages images/
+Uk selling cars/
+
+# ===== Dataset gabungan =====
+# CSV lengkap lewat link Google Drive, yang di-upload hanya data/sample/
+data/processed/
+# Salinan CSV di Raw Zone (duplikat dari processed), _manifest.json tetap ikut
+data/raw/**/*.csv
+
+# ===== Lakehouse =====
+# Folder lakehouse/ IKUT di-upload sebagai bukti hasil pipeline.
+# File .crc hanya checksum Hadoop, tidak diperlukan untuk membaca tabel
+*.crc
+
+# ===== File sementara Spark =====
+outputs/checkpoints/
+outputs/_env_check/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ===== Laporan dan file Office (dikumpulkan terpisah) =====
+*.docx
+*.pdf
+~$*
+
+# ===== File sistem dan editor =====
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

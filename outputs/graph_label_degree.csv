@@ -1,0 +1,30 @@
+type,name,images
+Damage,Broken part,664
+Damage,Dent,629
+Damage,Scratch,517
+Damage,Missing part,434
+Damage,Paint chip,279
+Damage,Corrosion,109
+Damage,Flaking,108
+Damage,Cracked,67
+Part,Front-door,905
+Part,Fender,895
+Part,Front-wheel,879
+Part,Rocker-panel,858
+Part,Back-wheel,856
+Part,Mirror,839
+Part,Quarter-panel,838
+Part,Front-window,826
+Part,Back-window,812
+Part,Roof,790
+Part,Back-door,714
+Part,Hood,712
+Part,Front-bumper,693
+Part,Headlight,658
+Part,Windshield,631
+Part,Grille,531
+Part,Tail-light,470
+Part,Back-bumper,441
+Part,License-plate,368
+Part,Trunk,351
+Part,Back-windshield,270

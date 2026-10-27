@@ -1,0 +1,24 @@
+{
+  "rows_in": 97712,
+  "rows_flagged": 301,
+  "pct_flagged": 0.308,
+  "by_rule": {
+    "mpg_below_10": 33,
+    "zero_engine_size": 266,
+    "year_before_1990": 1,
+    "year_after_collection": 1
+  },
+  "null_pct": {
+    "price": 0.0,
+    "mileage": 0.0,
+    "mpg": 0.0,
+    "damage_labels": 40.62,
+    "part_labels": 27.2
+  },
+  "threshold_pct": 5.0,
+  "image_check": {
+    "unique_paths": 1371,
+    "missing": 0,
+    "missing_examples": []
+  }
+}

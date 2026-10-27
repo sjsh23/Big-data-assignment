@@ -1,0 +1,76 @@
+{
+  "vertices": {
+    "Damage": 8,
+    "Model": 194,
+    "Image": 1371,
+    "Part": 21,
+    "Listing": 97411,
+    "Brand": 9
+  },
+  "edges": {
+    "OF_MODEL": 97411,
+    "BY_BRAND": 194,
+    "HAS_IMAGE": 97411,
+    "SHOWS_DAMAGE": 2807,
+    "SHOWS_PART": 14337
+  },
+  "motif_engine": "GraphFrames",
+  "images_with_damage_and_part": 441,
+  "images_with_damage": 814,
+  "lpa_communities": 9,
+  "freq_graph": {
+    "nodes": 29,
+    "edges": 196,
+    "density": 0.483,
+    "louvain_communities": 2,
+    "louvain_modularity": 0.001
+  },
+  "assoc_graph": {
+    "min_support": 20,
+    "min_lift": 1.05,
+    "edges": 33,
+    "isolated_nodes": [
+      "Fender",
+      "Front-door",
+      "Front-wheel",
+      "Hood",
+      "Rocker-panel"
+    ],
+    "louvain_communities": 4,
+    "louvain_modularity": 0.371,
+    "communities": {
+      "0": [
+        "Back-bumper",
+        "Back-wheel",
+        "Corrosion",
+        "Flaking",
+        "Front-bumper",
+        "Quarter-panel",
+        "Tail-light",
+        "Trunk"
+      ],
+      "1": [
+        "Back-windshield",
+        "Cracked",
+        "License-plate",
+        "Mirror",
+        "Missing part",
+        "Roof",
+        "Scratch",
+        "Windshield"
+      ],
+      "2": [
+        "Back-door",
+        "Back-window",
+        "Dent",
+        "Front-window",
+        "Paint chip"
+      ],
+      "3": [
+        "Broken part",
+        "Grille",
+        "Headlight"
+      ]
+    }
+  }
+}

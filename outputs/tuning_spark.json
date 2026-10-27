@@ -1,0 +1,78 @@
+{
+  "Linear Regression": [
+    {
+      "params": {
+        "regParam": 0.0
+      },
+      "RMSE": 2911.2,
+      "MAE": 1641.2,
+      "MAPE_pct": 9.61,
+      "R2": 0.9175,
+      "fit_seconds": 8.3
+    },
+    {
+      "params": {
+        "regParam": 0.001
+      },
+      "RMSE": 2912.9,
+      "MAE": 1640.7,
+      "MAPE_pct": 9.61,
+      "R2": 0.9174,
+      "fit_seconds": 3.2
+    },
+    {
+      "params": {
+        "regParam": 0.01
+      },
+      "RMSE": 2933.5,
+      "MAE": 1640.4,
+      "MAPE_pct": 9.61,
+      "R2": 0.9163,
+      "fit_seconds": 3.1
+    }
+  ],
+  "Random Forest": [
+    {
+      "params": {
+        "maxDepth": 10
+      },
+      "RMSE": 3108.3,
+      "MAE": 1854.3,
+      "MAPE_pct": 11.39,
+      "R2": 0.906,
+      "fit_seconds": 36.4
+    },
+    {
+      "params": {
+        "maxDepth": 15
+      },
+      "RMSE": 2320.0,
+      "MAE": 1380.3,
+      "MAPE_pct": 8.51,
+      "R2": 0.9476,
+      "fit_seconds": 133.9
+    }
+  ],
+  "GBT": [
+    {
+      "params": {
+        "maxDepth": 5
+      },
+      "RMSE": 2747.7,
+      "MAE": 1676.2,
+      "MAPE_pct": 9.97,
+      "R2": 0.9265,
+      "fit_seconds": 66.4
+    },
+    {
+      "params": {
+        "maxDepth": 8
+      },
+      "RMSE": 2241.3,
+      "MAE": 1379.4,
+      "MAPE_pct": 8.44,
+      "R2": 0.9511,
+      "fit_seconds": 103.4
+    }
+  ]
+}

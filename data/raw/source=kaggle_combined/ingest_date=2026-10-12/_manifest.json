@@ -1,0 +1,9 @@
+{
+  "file": "used_cars_with_images.csv",
+  "rows": 97712,
+  "sha256": "b77aa7cc7b7e81f1c574e8af12503a96984f3415bd6c221f51664eaa08825486",
+  "sources": {
+    "listing": "Desai (2020), Kaggle, lisensi tidak dinyatakan",
+    "images": "Humans in the Loop (2023), Kaggle, CC0 1.0"
+  }
+}

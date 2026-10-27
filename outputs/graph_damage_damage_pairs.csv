@@ -1,0 +1,29 @@
+damage_a,damage_b,images,lift
+Broken part,Dent,519,1.0115166548547132
+Dent,Scratch,419,1.048811013767209
+Broken part,Scratch,403,0.955588310689567
+Broken part,Missing part,364,1.0281772250291488
+Dent,Missing part,332,0.9899701816210354
+Missing part,Scratch,272,0.9867634081772723
+Dent,Paint chip,229,1.0621969217794647
+Broken part,Paint chip,224,0.9842380273783307
+Paint chip,Scratch,193,1.089148173568215
+Missing part,Paint chip,150,1.0083742133690106
+Corrosion,Dent,84,0.9973016729627631
+Dent,Flaking,80,0.9586056644880174
+Broken part,Flaking,79,0.8967257920571174
+Broken part,Corrosion,78,0.8772521277771638
+Flaking,Scratch,77,1.1225374310480696
+Corrosion,Scratch,71,1.0255709545188367
+Corrosion,Missing part,62,1.0668414154652688
+Broken part,Cracked,55,1.006338787987772
+Cracked,Dent,54,1.0430201931518877
+Flaking,Missing part,52,0.9030551288615805
+Cracked,Scratch,51,1.1984757065735154
+Corrosion,Paint chip,42,1.1241984808128638
+Flaking,Paint chip,40,1.0805787866719767
+Cracked,Missing part,40,1.1197468876814085
+Corrosion,Flaking,29,2.005266734624533
+Cracked,Paint chip,17,0.7402771090782646
+Cracked,Flaking,10,1.1249309010503041
+Corrosion,Cracked,2,0.22292208681363823

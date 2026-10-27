@@ -1,0 +1,29 @@
+{
+  "rows": 97411,
+  "images": 1371,
+  "split_rows": {
+    "train": 69280,
+    "test": 19959,
+    "val": 8172
+  },
+  "split_images": {
+    "test": 281,
+    "train": 975,
+    "val": 115
+  },
+  "images_shared_across_splits": 0,
+  "price_skew": 2.37,
+  "log_price_skew": -0.08,
+  "mileage_skew": 1.78,
+  "n_categories": {
+    "brand": 9,
+    "model": 194,
+    "transmission": 4,
+    "fuelType": 5
+  },
+  "price_mean_by_split": {
+    "test": 16682.0,
+    "train": 16785.0,
+    "val": 16833.0
+  }
+}

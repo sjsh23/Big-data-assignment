@@ -1,0 +1,102 @@
+{
+  "Ridge": [
+    {
+      "params": {
+        "alpha": 0.1
+      },
+      "RMSE": 2911.9,
+      "MAE": 1640.9,
+      "MAPE_pct": 9.61,
+      "R2": 0.9175,
+      "fit_seconds": 0.7
+    },
+    {
+      "params": {
+        "alpha": 1.0
+      },
+      "RMSE": 2912.5,
+      "MAE": 1640.9,
+      "MAPE_pct": 9.61,
+      "R2": 0.9174,
+      "fit_seconds": 0.6
+    },
+    {
+      "params": {
+        "alpha": 10.0
+      },
+      "RMSE": 3030.6,
+      "MAE": 1664.6,
+      "MAPE_pct": 9.68,
+      "R2": 0.9106,
+      "fit_seconds": 0.4
+    }
+  ],
+  "Random Forest": [
+    {
+      "params": {
+        "max_depth": 15
+      },
+      "RMSE": 2122.6,
+      "MAE": 1341.4,
+      "MAPE_pct": 8.33,
+      "R2": 0.9562,
+      "fit_seconds": 33.8
+    },
+    {
+      "params": {
+        "max_depth": 25
+      },
+      "RMSE": 1889.6,
+      "MAE": 1145.7,
+      "MAPE_pct": 7.16,
+      "R2": 0.9653,
+      "fit_seconds": 129.3
+    }
+  ],
+  "Gradient Boosting": [
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 31
+      },
+      "RMSE": 1950.0,
+      "MAE": 1221.0,
+      "MAPE_pct": 7.42,
+      "R2": 0.963,
+      "fit_seconds": 12.7
+    },
+    {
+      "params": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 63
+      },
+      "RMSE": 1772.4,
+      "MAE": 1131.5,
+      "MAPE_pct": 6.98,
+      "R2": 0.9694,
+      "fit_seconds": 20.0
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31
+      },
+      "RMSE": 1815.8,
+      "MAE": 1147.4,
+      "MAPE_pct": 7.04,
+      "R2": 0.9679,
+      "fit_seconds": 12.9
+    },
+    {
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 63
+      },
+      "RMSE": 1698.3,
+      "MAE": 1092.5,
+      "MAPE_pct": 6.8,
+      "R2": 0.9719,
+      "fit_seconds": 18.4
+    }
+  ]
+}

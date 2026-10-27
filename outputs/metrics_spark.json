@@ -1,0 +1,44 @@
+{
+  "Linear Regression": {
+    "library": "Spark MLlib",
+    "best_params": {
+      "regParam": 0.0
+    },
+    "test": {
+      "RMSE": 2930.1,
+      "MAE": 1616.0,
+      "MAPE_pct": 9.56,
+      "R2": 0.9129
+    },
+    "fit_seconds": 3.4,
+    "predict_seconds": 0.41
+  },
+  "Random Forest": {
+    "library": "Spark MLlib",
+    "best_params": {
+      "maxDepth": 15
+    },
+    "test": {
+      "RMSE": 2522.9,
+      "MAE": 1386.9,
+      "MAPE_pct": 8.52,
+      "R2": 0.9354
+    },
+    "fit_seconds": 150.8,
+    "predict_seconds": 4.74
+  },
+  "GBT": {
+    "library": "Spark MLlib",
+    "best_params": {
+      "maxDepth": 8
+    },
+    "test": {
+      "RMSE": 2451.7,
+      "MAE": 1403.0,
+      "MAPE_pct": 8.53,
+      "R2": 0.939
+    },
+    "fit_seconds": 111.4,
+    "predict_seconds": 1.06
+  }
+}

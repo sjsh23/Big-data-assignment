@@ -1,0 +1,8 @@
+Library,Model,Family,RMSE,MAE,MAPE_pct,R2,Fit (detik),Params
+scikit-learn,Ridge,Linear,2929.5,1616.5,9.56,0.9129,0.7,"{""alpha"": 0.1}"
+scikit-learn,Random Forest,Random Forest,2161.5,1149.0,7.09,0.9526,136.3,"{""max_depth"": 25}"
+scikit-learn,Gradient Boosting,Gradient Boosting,2037.9,1103.7,6.77,0.9579,19.6,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 63}"
+scikit-learn,Gradient Boosting (tanpa fitur label gambar),Ablation,1991.8,1083.8,6.68,0.9597,17.8,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 63}"
+Spark MLlib,Linear Regression,Linear,2930.1,1616.0,9.56,0.9129,3.4,"{""regParam"": 0.0}"
+Spark MLlib,Random Forest,Random Forest,2522.9,1386.9,8.52,0.9354,150.8,"{""maxDepth"": 15}"
+Spark MLlib,GBT,Gradient Boosting,2451.7,1403.0,8.53,0.939,111.4,"{""maxDepth"": 8}"

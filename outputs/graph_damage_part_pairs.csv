@@ -1,0 +1,169 @@
+damage,part,images,lift
+Broken part,Front-door,327,1.0023354254853307
+Broken part,Fender,326,1.0220961481039115
+Broken part,Front-wheel,316,1.0112770496799757
+Dent,Front-door,315,1.0413964750774027
+Broken part,Back-wheel,313,1.0068933823529413
+Broken part,Rocker-panel,312,1.0062970357855936
+Dent,Fender,304,1.0279877927216403
+Dent,Front-wheel,300,1.0354867492134057
+Dent,Back-wheel,300,1.040879909365559
+Dent,Rocker-panel,298,1.0366402940689263
+Broken part,Quarter-panel,297,1.002410800385728
+Broken part,Front-window,296,1.015686274509804
+Broken part,Mirror,296,1.0128727391233503
+Broken part,Back-window,295,1.0265120132560066
+Dent,Front-window,287,1.0621601208459215
+Dent,Quarter-panel,287,1.0447476598484473
+Broken part,Roof,286,1.027017783857729
+Dent,Back-window,282,1.0583549636185694
+Dent,Mirror,277,1.022311303780201
+Dent,Roof,271,1.0495942527928055
+Broken part,Front-bumper,265,1.0492081447963801
+Broken part,Hood,264,1.035294117647059
+Scratch,Front-door,261,0.9951582642377291
+Scratch,Fender,253,0.9866906029466386
+Broken part,Back-door,252,1.0106951871657754
+Scratch,Rocker-panel,251,1.007005030885818
+Broken part,Headlight,250,1.050420168067227
+Scratch,Front-wheel,248,0.9872361936054592
+Scratch,Back-wheel,246,0.984375
+Dent,Back-door,245,1.059804998626751
+Broken part,Windshield,243,1.0495680789798436
+Dent,Front-bumper,241,1.0291366488496398
+Dent,Hood,241,1.0193353474320241
+Scratch,Quarter-panel,234,0.9824070371851259
+Scratch,Front-window,228,0.9731707317073172
+Scratch,Mirror,224,0.9534490912776163
+Dent,Headlight,223,1.0105740181268883
+Scratch,Back-window,222,0.9609069048436963
+Dent,Windshield,222,1.034183339319291
+Missing part,Fender,222,1.0440429979098238
+Missing part,Front-door,218,1.0023354254853305
+Missing part,Front-wheel,217,1.0416793660469368
+Broken part,Grille,213,1.0872630043753038
+Scratch,Roof,212,0.9469653998865569
+Missing part,Back-wheel,207,0.9988511029411766
+Missing part,Rocker-panel,204,0.9869451697127938
+Missing part,Mirror,202,1.0368258106566728
+Missing part,Quarter-panel,202,1.0226615236258438
+Missing part,Roof,200,1.0772913816689467
+Missing part,Back-window,198,1.0334714167357084
+Scratch,Hood,197,0.9609756097560976
+Scratch,Front-bumper,194,0.9554409005628518
+Missing part,Front-window,192,0.988235294117647
+Scratch,Back-door,192,0.9578713968957872
+Dent,Grille,186,1.024019375296497
+Scratch,Headlight,183,0.956445993031359
+Scratch,Windshield,174,0.9348456421627153
+Missing part,Front-bumper,173,1.0274321266968327
+Missing part,Hood,171,1.0058823529411764
+Missing part,Back-door,165,0.9926470588235297
+Missing part,Headlight,162,1.0210084033613447
+Missing part,Windshield,160,1.0366104483751544
+Broken part,Tail-light,158,1.0060642813826561
+Dent,Tail-light,152,1.0438845111657895
+Scratch,Grille,147,0.9333803668615197
+Paint chip,Back-wheel,146,1.04794921875
+Paint chip,Front-door,146,0.9985421836228286
+Paint chip,Rocker-panel,141,1.014703002610966
+Broken part,Back-bumper,140,0.9450337512054001
+Paint chip,Fender,140,0.9793781725888324
+Broken part,License-plate,139,0.9925195511730703
+Paint chip,Quarter-panel,137,1.0317110655737705
+Paint chip,Front-wheel,137,0.9782545336787564
+Missing part,Grille,136,1.0413223140495866
+Dent,Back-bumper,132,0.9610222376306274
+Paint chip,Back-window,131,1.0170950704225352
+Paint chip,Front-window,129,0.9876562499999999
+Paint chip,Roof,128,1.025581395348837
+Dent,License-plate,124,0.9549621919913382
+Paint chip,Mirror,123,0.9391101108033242
+Scratch,Tail-light,123,0.9742268041237112
+Broken part,Trunk,121,0.9705882352941178
+Paint chip,Back-door,119,1.0649147727272728
+Paint chip,Hood,114,0.9974999999999999
+Scratch,Back-bumper,114,0.957217113154738
+Scratch,License-plate,111,0.9859015931199773
+Paint chip,Front-bumper,110,0.9717548076923076
+Dent,Trunk,110,0.9516616314199395
+Missing part,Tail-light,107,1.0219830200121287
+Paint chip,Windshield,107,1.0311844405594406
+Paint chip,Headlight,105,0.984375
+Scratch,Trunk,103,1.0277161862527715
+Missing part,License-plate,100,1.0710642638558314
+Missing part,Back-bumper,99,1.0024108003857282
+Paint chip,Grille,94,1.0706095041322314
+Broken part,Back-windshield,85,0.9459459459459459
+Missing part,Trunk,80,0.9625668449197863
+Dent,Back-windshield,79,0.9482322201355435
+Scratch,Back-windshield,70,0.9690177982860908
+Corrosion,Front-door,66,1.0317617866004962
+Paint chip,License-plate,66,1.0515173410404626
+Paint chip,Tail-light,65,0.923485824742268
+Paint chip,Back-bumper,64,0.9639344262295082
+Corrosion,Back-wheel,64,1.05
+Missing part,Back-windshield,63,1.051669316375199
+Corrosion,Rocker-panel,62,1.0198433420365536
+Corrosion,Quarter-panel,62,1.0672131147540984
+Flaking,Front-wheel,60,1.0231227283272755
+Flaking,Fender,59,0.9856428517311916
+Corrosion,Fender,59,0.9434010152284263
+Corrosion,Front-wheel,59,0.9629533678756476
+Flaking,Front-door,58,0.947298248213029
+Paint chip,Trunk,57,1.0201704545454546
+Corrosion,Front-window,57,0.9974999999999999
+Flaking,Back-wheel,56,0.9598880597014924
+Flaking,Roof,56,1.0715029503644566
+Corrosion,Mirror,56,0.9772853185595569
+Flaking,Quarter-panel,56,1.0070956691950084
+Corrosion,Back-window,55,0.976056338028169
+Flaking,Rocker-panel,54,0.9280230700284477
+Flaking,Mirror,54,0.9845784925786579
+Flaking,Front-window,54,0.9873134328358207
+Flaking,Front-bumper,53,1.1181113662456945
+Flaking,Back-window,52,0.964137061173008
+Corrosion,Roof,51,0.9340116279069768
+Flaking,Headlight,50,1.119402985074627
+Corrosion,Headlight,48,1.0285714285714287
+Flaking,Hood,48,1.0029850746268656
+Corrosion,Front-bumper,47,0.9490384615384615
+Corrosion,Hood,46,0.92
+Corrosion,Back-door,45,0.9204545454545455
+Flaking,Windshield,44,1.0126291618828933
+Flaking,Grille,42,1.1423461206364869
+Flaking,Back-door,40,0.8548168249660787
+Corrosion,Windshield,40,0.8811188811188811
+Corrosion,Back-bumper,36,1.2393442622950819
+Paint chip,Back-windshield,35,0.8690878378378378
+Corrosion,Grille,34,0.8851239669421487
+Corrosion,Tail-light,34,1.1041237113402063
+Cracked,Front-door,32,0.9464153980283011
+Cracked,Fender,32,0.9680340238715873
+Cracked,Mirror,32,1.0565246687130345
+Cracked,Rocker-panel,31,0.9647166748994424
+Cracked,Front-wheel,31,0.957218876907996
+Cracked,Roof,31,1.074088623507228
+Cracked,Quarter-panel,29,0.9443952148870179
+Corrosion,License-plate,29,1.0560693641618497
+Corrosion,Trunk,28,1.1454545454545455
+Flaking,Back-bumper,28,1.0070956691950084
+Cracked,Back-door,27,1.0448402948402948
+Cracked,Hood,27,1.0216216216216214
+Cracked,Back-window,27,0.9065093262276359
+Cracked,Windshield,27,1.125212625212625
+Cracked,Front-window,27,0.8939189189189187
+Cracked,Back-wheel,26,0.8070101351351352
+Flaking,Tail-light,24,0.8142791198645946
+Cracked,Front-bumper,24,0.9168399168399167
+Cracked,Headlight,22,0.891891891891892
+Flaking,License-plate,22,0.8370287291864378
+Flaking,Trunk,19,0.8120759837177748
+Corrosion,Back-windshield,19,1.0783783783783785
+Cracked,Grille,18,0.8865311592584318
+Flaking,Back-windshield,16,0.9487696651875756
+Cracked,Tail-light,15,0.9215658957927
+Cracked,License-plate,13,0.8956413060459303
+Cracked,Back-bumper,12,0.781568453699601
+Cracked,Trunk,12,0.9287469287469287
+Cracked,Back-windshield,9,0.9663988312636959
