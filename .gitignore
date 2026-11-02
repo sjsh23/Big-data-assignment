@@ -7,11 +7,6 @@ __pycache__/
 car damages images/
 Uk selling cars/
 
-# ===== Dataset gabungan =====
-# CSV lengkap lewat link Google Drive, yang di-upload hanya data/sample/
-data/processed/
-# Salinan CSV di Raw Zone (duplikat dari processed), _manifest.json tetap ikut
-data/raw/**/*.csv
 
 # ===== Lakehouse =====
 # Folder lakehouse/ IKUT di-upload sebagai bukti hasil pipeline.

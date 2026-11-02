@@ -1,0 +1,69 @@
+{
+  "cars": {
+    "rows_per_file": {
+      "audi.csv": 10668,
+      "bmw.csv": 10781,
+      "ford.csv": 17965,
+      "hyundi.csv": 4860,
+      "merc.csv": 13119,
+      "skoda.csv": 6267,
+      "toyota.csv": 6738,
+      "vauxhall.csv": 13632,
+      "vw.csv": 15157
+    },
+    "rows_raw": 99187,
+    "excluded_files": [
+      "cclass.csv",
+      "focus.csv",
+      "unclean cclass.csv",
+      "unclean focus.csv"
+    ],
+    "exact_duplicates_dropped": 1475,
+    "rows_after_dedup_per_brand": {
+      "Audi": 10565,
+      "BMW": 10664,
+      "Ford": 17811,
+      "Hyundai": 4774,
+      "Mercedes": 12860,
+      "Skoda": 6188,
+      "Toyota": 6699,
+      "Vauxhall": 13258,
+      "Volkswagen": 14893
+    },
+    "flagged_rows": {
+      "year_after_collection": 1,
+      "zero_engine_size": 266
+    }
+  },
+  "images": {
+    "image_files_per_subset": {
+      "Car damages dataset": 998,
+      "Car parts dataset": 814
+    },
+    "annotation_kind_per_subset": {
+      "Car damages dataset": "part",
+      "Car parts dataset": "damage"
+    },
+    "image_files_total": 1812,
+    "images_missing_annotation": 0,
+    "unique_images": 1371,
+    "image_source_counts": {
+      "part": 557,
+      "both": 441,
+      "damage": 373
+    }
+  },
+  "seed": 42,
+  "img_root": "car damages images",
+  "car_dir": "Uk selling cars",
+  "assignment": "balanced random with replacement (Option B)",
+  "validation": {
+    "rows": 97712,
+    "unique_images": 1371,
+    "reuse_min": 71,
+    "reuse_max": 72,
+    "brand_runs": 85308,
+    "brand_runs_expected_if_random": 85313
+  },
+  "output_csv_sha256": "b77aa7cc7b7e81f1c574e8af12503a96984f3415bd6c221f51664eaa08825486"
+}
