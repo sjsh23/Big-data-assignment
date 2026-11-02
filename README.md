@@ -31,4 +31,3 @@ python src\check_env.py
 python run_pipeline.py
 ```
 
-Detail setup Windows (Java 17, winutils) ada di runbook.
