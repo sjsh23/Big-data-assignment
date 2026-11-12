@@ -241,7 +241,9 @@ with tabs[1]:
                                customdata=np.stack([g.n, g.mae], axis=1),
                                hovertemplate="%{x}<br>MAPE GB %{y:.2%}<br>Jumlah Prediksi %{customdata[0]:,}"
                                              "<br>MAE GB %{customdata[1]:,.1f}<extra></extra>"))
-        fig.update_yaxes(tickformat=".0%", range=[0, 0.10], dtick=0.02)
+        # Sumbu ikut data supaya bar tidak terpotong saat slicer dipakai (misal 10+ tahun, MAPE 25%)
+        ymax = max(0.10, float(g.mape.max()) / 100 * 1.15) if len(g) else 0.10
+        fig.update_yaxes(tickformat=".0%", range=[0, ymax], dtick=0.02 if ymax <= 0.10 else None)
         show(base_layout(fig, 300))
 
     left, right = st.columns([1, 2.4])
@@ -250,10 +252,14 @@ with tabs[1]:
         fig = go.Figure(go.Scattergl(x=p.actual_price, y=p.pred_sklearn_gb, mode="markers",
                                      marker=dict(color=BLUE, size=6), customdata=p.car_id,
                                      hovertemplate="car_id %{customdata}<br>actual_price %{x:,}<br>pred_sklearn_gb %{y:,}<extra></extra>"))
-        ticks = [0, 50000, 100000, 150000]
-        fig.update_xaxes(range=[0, 160000], tickvals=ticks, ticktext=[k_fmt(v) for v in ticks],
+        # Skala ikut data seperti Power BI: 0 sampai 160K tanpa filter, mengecil saat slicer dipakai
+        top = max(float(p.actual_price.max()), float(p.pred_sklearn_gb.max())) if len(p) else 150000
+        step = 50000 if top > 60000 else (10000 if top > 20000 else 5000)
+        lim = top * 1.07
+        ticks = list(range(0, int(lim) + 1, step))
+        fig.update_xaxes(range=[0, lim], tickvals=ticks, ticktext=[k_fmt(v) for v in ticks],
                          title=dict(text="Sum of actual_price", font=dict(size=11, color=MUTED)))
-        fig.update_yaxes(range=[0, 160000], tickvals=ticks, ticktext=[k_fmt(v) for v in ticks],
+        fig.update_yaxes(range=[0, lim], tickvals=ticks, ticktext=[k_fmt(v) for v in ticks],
                          title=dict(text="Sum of pred_sklearn_gb", font=dict(size=11, color=MUTED)))
         show(base_layout(fig, 300))
     with box(right):
