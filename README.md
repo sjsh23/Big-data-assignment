@@ -6,23 +6,23 @@ Satyasiddhi Josh (2702750571), Magister Teknik Informatika, BINUS Graduate Progr
 
 ## Isi repository
 
-| Folder atau file | Isi |
-|---|---|
-| `src/build_dataset.py` | Penggabungan dataset listing dan gambar (lihat `datasetReadme.md`) |
-| `src/s01_ingest_raw.py` sampai `src/s09_export_dashboard.py` | Sembilan tahap pipeline |
-| `src/config.py`, `src/common_ml.py` | Konfigurasi path, SparkSession, dan fungsi bersama |
-| `run_pipeline.py` | Orkestrator lokal, berhenti bila satu tahap gagal |
-| `dags/used_car_pipeline_dag.py` | DAG Airflow dengan urutan tahap yang sama (untuk Linux, WSL, atau Docker) |
-| `data/processed/` | Dataset gabungan (CSV, Parquet, metadata build) |
-| `data/raw/` | Raw Zone hasil tahap s01: salinan CSV dan `_manifest.json` |
-| `lakehouse/curated/` | Curated Zone, tabel Delta Lake dipartisi per brand, plus tabel quarantine |
-| `lakehouse/serving/` | Serving Layer, tabel agregat Delta Lake |
-| `lakehouse/ml/` | Dataset ML (Parquet) dan model GBT Spark MLlib |
-| `outputs/` | Laporan kualitas data, metrik, hasil tuning, prediksi, hasil graph, dan figure |
-| `dashboard/data/` | CSV hasil tahap s09, sumber data dashboard |
-| `dashboard/Dashboard_Final_Project.pbix` | Dashboard Power BI (data sudah tersimpan di dalam file) |
-| `dashboard/app.py` | Versi web dashboard (Streamlit) dengan data dan halaman yang sama |
-| `dashboard/PANDUAN_POWER_BI.md` | Langkah membangun dashboard Power BI dari CSV hasil s09 |
+| Folder atau file                                             | Isi                                                                            |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `src/build_dataset.py`                                       | Penggabungan dataset listing dan gambar (lihat `datasetReadme.md`)             |
+| `src/s01_ingest_raw.py` sampai `src/s09_export_dashboard.py` | Sembilan tahap pipeline                                                        |
+| `src/config.py`, `src/common_ml.py`                          | Konfigurasi path, SparkSession, dan fungsi bersama                             |
+| `run_pipeline.py`                                            | Orkestrator lokal, berhenti bila satu tahap gagal                              |
+| `dags/used_car_pipeline_dag.py`                              | DAG Airflow dengan urutan tahap yang sama (untuk Linux, WSL, atau Docker)      |
+| `data/processed/`                                            | Dataset gabungan (CSV, Parquet, metadata build)                                |
+| `data/raw/`                                                  | Raw Zone hasil tahap s01: salinan CSV dan `_manifest.json`                     |
+| `lakehouse/curated/`                                         | Curated Zone, tabel Delta Lake dipartisi per brand, plus tabel quarantine      |
+| `lakehouse/serving/`                                         | Serving Layer, tabel agregat Delta Lake                                        |
+| `lakehouse/ml/`                                              | Dataset ML (Parquet) dan model GBT Spark MLlib                                 |
+| `outputs/`                                                   | Laporan kualitas data, metrik, hasil tuning, prediksi, hasil graph, dan figure |
+| `dashboard/data/`                                            | CSV hasil tahap s09, sumber data dashboard                                     |
+| `dashboard/Dashboard_Final_Project.pbix`                     | Dashboard Power BI (data sudah tersimpan di dalam file)                        |
+| `dashboard/app.py`                                           | Versi web dashboard (Streamlit) dengan data dan halaman yang sama              |
+| `dashboard/PANDUAN_POWER_BI.md`                              | Langkah membangun dashboard Power BI dari CSV hasil s09                        |
 
 Folder `data/`, `lakehouse/`, dan `outputs/` adalah hasil eksekusi pipeline yang sebenarnya, jadi bisa dicek tanpa menjalankan ulang.
 
@@ -61,14 +61,13 @@ python run_pipeline.py --only s09   # satu tahap saja
 
 ## Dashboard
 
-- **Power BI:** buka `dashboard/Dashboard_Final_Project.pbix` dengan Power BI Desktop. Setelah pipeline dijalankan ulang, jalankan `python run_pipeline.py --only s09`, lalu klik Refresh.
 - **Versi web:** `pip install streamlit plotly`, lalu `streamlit run dashboard/app.py`.
 
 ## Hasil utama
 
-| Bagian | Hasil |
-|---|---|
-| Quality gate | 301 dari 97.712 baris ditandai (0,31%), ambang henti 5% |
-| Model terbaik | Gradient Boosting scikit-learn: RMSE 2.037,9 GBP, MAPE 6,77%, R² 0,9579 |
-| Spark MLlib | GBT: RMSE 2.451,7 GBP, MAPE 8,53% |
-| Graph analytics | Graph asosiasi berbasis lift, Louvain 4 komunitas, modularity 0,371 |
+| Bagian          | Hasil                                                                   |
+| --------------- | ----------------------------------------------------------------------- |
+| Quality gate    | 301 dari 97.712 baris ditandai (0,31%), ambang henti 5%                 |
+| Model terbaik   | Gradient Boosting scikit-learn: RMSE 2.037,9 GBP, MAPE 6,77%, R² 0,9579 |
+| Spark MLlib     | GBT: RMSE 2.451,7 GBP, MAPE 8,53%                                       |
+| Graph analytics | Graph asosiasi berbasis lift, Louvain 4 komunitas, modularity 0,371     |
