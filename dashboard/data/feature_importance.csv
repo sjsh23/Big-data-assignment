@@ -1,0 +1,77 @@
+feature,importance,method,kelompok
+age,0.2292,Permutation importance (scikit-learn GB),Atribut kendaraan
+engineSize,0.19059,Permutation importance (scikit-learn GB),Atribut kendaraan
+brand,0.12676,Permutation importance (scikit-learn GB),Atribut kendaraan
+mileage,0.09372,Permutation importance (scikit-learn GB),Atribut kendaraan
+model,0.08034,Permutation importance (scikit-learn GB),Atribut kendaraan
+mpg,0.07212,Permutation importance (scikit-learn GB),Atribut kendaraan
+transmission,0.05663,Permutation importance (scikit-learn GB),Atribut kendaraan
+fuelType,0.01396,Permutation importance (scikit-learn GB),Atribut kendaraan
+tax,0.00841,Permutation importance (scikit-learn GB),Atribut kendaraan
+dmg_paint_chip,0.00015,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_back_door,0.00014,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_back_bumper,8e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_cracked,7e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_hood,6e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_scratch,4e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_roof,3e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_front_door,3e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_missing_part,2e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_windshield,1e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_back_windshield,0.0,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_rocker_panel,-0.0,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_quarter_panel,-0.0,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_back_window,-1e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_license_plate,-2e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_mirror,-2e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_front_window,-3e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_flaking,-4e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_front_bumper,-4e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_corrosion,-5e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_trunk,-5e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_fender,-6e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_tail_light,-6e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_back_wheel,-6e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_front_wheel,-8e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_headlight,-8e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_dent,-9e-05,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+part_grille,-0.00013,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+dmg_broken_part,-0.00017,Permutation importance (scikit-learn GB),Label gambar (29 fitur)
+age,0.23875,Split importance (Spark GBT),Atribut kendaraan
+transmission,0.20379,Split importance (Spark GBT),Atribut kendaraan
+model,0.19401,Split importance (Spark GBT),Atribut kendaraan
+engineSize,0.15558,Split importance (Spark GBT),Atribut kendaraan
+brand,0.06772,Split importance (Spark GBT),Atribut kendaraan
+mpg,0.05679,Split importance (Spark GBT),Atribut kendaraan
+mileage,0.05118,Split importance (Spark GBT),Atribut kendaraan
+tax,0.01247,Split importance (Spark GBT),Atribut kendaraan
+fuelType,0.00897,Split importance (Spark GBT),Atribut kendaraan
+dmg_paint_chip,0.00112,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_broken_part,0.0008,Split importance (Spark GBT),Label gambar (29 fitur)
+part_back_bumper,0.00075,Split importance (Spark GBT),Label gambar (29 fitur)
+part_license_plate,0.00064,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_corrosion,0.00057,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_dent,0.00054,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_scratch,0.00048,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_missing_part,0.00047,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_cracked,0.00047,Split importance (Spark GBT),Label gambar (29 fitur)
+part_back_door,0.00045,Split importance (Spark GBT),Label gambar (29 fitur)
+dmg_flaking,0.00039,Split importance (Spark GBT),Label gambar (29 fitur)
+part_back_wheel,0.00038,Split importance (Spark GBT),Label gambar (29 fitur)
+part_grille,0.00036,Split importance (Spark GBT),Label gambar (29 fitur)
+part_back_windshield,0.00031,Split importance (Spark GBT),Label gambar (29 fitur)
+part_trunk,0.00031,Split importance (Spark GBT),Label gambar (29 fitur)
+part_front_bumper,0.00029,Split importance (Spark GBT),Label gambar (29 fitur)
+part_tail_light,0.00029,Split importance (Spark GBT),Label gambar (29 fitur)
+part_roof,0.00025,Split importance (Spark GBT),Label gambar (29 fitur)
+part_fender,0.00024,Split importance (Spark GBT),Label gambar (29 fitur)
+part_hood,0.00024,Split importance (Spark GBT),Label gambar (29 fitur)
+part_headlight,0.00019,Split importance (Spark GBT),Label gambar (29 fitur)
+part_rocker_panel,0.00019,Split importance (Spark GBT),Label gambar (29 fitur)
+part_front_wheel,0.00018,Split importance (Spark GBT),Label gambar (29 fitur)
+part_quarter_panel,0.00017,Split importance (Spark GBT),Label gambar (29 fitur)
+part_mirror,0.00017,Split importance (Spark GBT),Label gambar (29 fitur)
+part_windshield,0.00016,Split importance (Spark GBT),Label gambar (29 fitur)
+part_back_window,0.00014,Split importance (Spark GBT),Label gambar (29 fitur)
+part_front_window,0.00014,Split importance (Spark GBT),Label gambar (29 fitur)
+part_front_door,9e-05,Split importance (Spark GBT),Label gambar (29 fitur)

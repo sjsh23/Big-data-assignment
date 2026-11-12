@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-11-10T22:33:48",
+  "rows": {
+    "dim_brand.csv": 9,
+    "dim_listing.csv": 97712,
+    "fact_prediction.csv": 19959,
+    "serving_price_by_brand_year.csv": 193,
+    "serving_damage_distribution.csv": 8,
+    "model_comparison.csv": 7,
+    "feature_importance.csv": 76,
+    "graph_pairs.csv": 196,
+    "graph_nodes.csv": 29,
+    "kpi_summary.csv": 18
+  },
+  "catatan": "Angka desimal memakai titik. Di Power BI set locale import ke English (United States)."
+}

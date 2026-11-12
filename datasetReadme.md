@@ -13,9 +13,9 @@ This writes the following files to `data/processed/`:
 | `used_cars_with_images.csv` / `.parquet` | 97,712 rows: car attributes, `brand`, and the assigned image |
 | `build_meta.json` | Seed, source row counts, rows dropped or flagged, image counts, reuse range, validation results, CSV hash |
 
-The script checks everything in plan Step 7 as assertions, and it fails loudly if any check does not hold. Running it again with the same seed produces a byte-identical CSV.
+The script checks the output with assertions (row counts, image reuse range, no image shared across splits by path), and it fails loudly if any check does not hold. Running it again with the same seed produces a byte-identical CSV.
 
-## ⚠️ The image pairing is synthetic
+## The image pairing is synthetic
 
 The two datasets share no key, so each image was assigned to its car **at random**. An image says nothing about the car in its row: its price, mileage and year are unrelated to the damage shown, and the photo often shows a different make altogether (for example, a Lexus next to a Skoda listing).
 
@@ -36,13 +36,13 @@ The two datasets share no key, so each image was assigned to its car **at random
 | `car_id` | Row key, assigned after shuffling |
 | `brand` | Taken from the source file name (the CSVs have no brand column) |
 | `model` … `engineSize` | Original listing fields. Hyundai's `tax(£)` is renamed to `tax`, and whitespace is stripped from `model` |
-| `data_issue` | Empty, or `year_after_collection` / `zero_engine_size`. These rows are flagged but kept |
+| `data_issue` | Empty, or `year_after_collection` / `zero_engine_size` as flagged at build time. Stage s02 of the pipeline re-validates the data and adds `year_before_1990` and `mpg_below_10` |
 | `image_id` | First 12 hex digits of the image's SHA-1. Use this to group splits |
 | `image_path` | Path relative to `car damages images/` |
 | `image_source` | `damage`, `part`, or `both`: which annotation sets cover the photo |
 | `damage_labels` / `part_labels` | `\|`-separated class names from the annotations |
 
-## Data decisions (differences from `plan.md`)
+## Data decisions
 
 - **Excluded CSVs:** `cclass.csv`, `focus.csv` and the two `unclean *.csv` files. They are subsets or raw copies of `merc.csv` and `ford.csv`.
 - **Exact duplicates:** 1,475 duplicate car rows were dropped (99,187 → 97,712). To keep them, set `DROP_EXACT_DUPLICATES = False`.
@@ -50,4 +50,4 @@ The two datasets share no key, so each image was assigned to its car **at random
 - **Only `img/` folders are used.** The `masks_human/` and `masks_machine/` folders hold PNG segmentation masks, not photos.
 - **The folder names are swapped relative to their contents.** `Car damages dataset/` is annotated with *car parts* (Hood, Bumper, …), and `Car parts dataset/` is annotated with *damage types* (Dent, Scratch, …). The script decides each subset's type from its `meta.json` classes instead of trusting the folder name.
 - **Photos shared between subsets are merged.** 441 photos appear byte-for-byte in both folders (once per annotation type). Photos are deduplicated by content hash, leaving 1,812 files → 1,371 unique images, and they are counted once. Otherwise they would be assigned twice as often, and a split by path would leak them.
-- **Image assignment:** balanced random with replacement (plan Option B). Every image is used ⌊N/M⌋ or ⌈N/M⌉ times.
+- **Image assignment:** balanced random with replacement. Every image is used ⌊N/M⌋ or ⌈N/M⌉ times.

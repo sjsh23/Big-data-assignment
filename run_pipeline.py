@@ -22,6 +22,7 @@ STAGES = [
     ("s06", "s06_train_spark_mllib.py", "Model dengan Spark MLlib"),
     ("s07", "s07_evaluate.py", "Evaluasi dan perbandingan model"),
     ("s08", "s08_graph_analytics.py", "Graph analytics"),
+    ("s09", "s09_export_dashboard.py", "Export data untuk dashboard Power BI"),
 ]
 
 

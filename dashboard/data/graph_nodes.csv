@@ -1,0 +1,30 @@
+name,type,jumlah_gambar,strength,pagerank_weighted,pagerank_graphframes,assoc_degree,community,community_label
+Broken part,Damage,664,6916,0.1212,1.973162812040575,2,4,Komunitas 4
+Dent,Damage,629,6593,0.1156,1.973162812040575,4,3,Komunitas 3
+Scratch,Damage,517,5473,0.0968,1.973162812040575,3,2,Komunitas 2
+Missing part,Damage,434,4750,0.0847,1.973162812040575,5,2,Komunitas 2
+Paint chip,Damage,279,3189,0.0583,1.973162812040575,7,3,Komunitas 3
+Corrosion,Damage,109,1365,0.028,1.973162812040575,9,1,Komunitas 1
+Flaking,Damage,108,1312,0.0271,1.973162812040575,7,1,Komunitas 1
+Front-door,Part,905,1423,0.027,0.6292713096988286,0,,Tanpa asosiasi
+Fender,Part,895,1395,0.0266,0.6292713096988286,0,,Tanpa asosiasi
+Front-wheel,Part,879,1368,0.0262,0.6292713096988286,0,,Tanpa asosiasi
+Back-wheel,Part,856,1358,0.026,0.6292713096988286,1,1,Komunitas 1
+Rocker-panel,Part,858,1353,0.026,0.6292713096988286,0,,Tanpa asosiasi
+Quarter-panel,Part,838,1304,0.0252,0.6292713096988286,1,1,Komunitas 1
+Front-window,Part,826,1270,0.0247,0.6292713096988286,1,3,Komunitas 3
+Mirror,Part,839,1264,0.0246,0.6292713096988286,1,2,Komunitas 2
+Back-window,Part,812,1262,0.0246,0.6292713096988286,1,3,Komunitas 3
+Roof,Part,790,1235,0.0242,0.6292713096988286,3,2,Komunitas 2
+Front-bumper,Part,693,1107,0.0222,0.6292713096988286,1,1,Komunitas 1
+Hood,Part,712,1108,0.0222,0.6292713096988286,0,,Tanpa asosiasi
+Back-door,Part,714,1085,0.0218,0.6292713096988286,2,3,Komunitas 3
+Headlight,Part,658,1043,0.0212,0.6292713096988286,2,4,Komunitas 4
+Windshield,Part,631,1017,0.0208,0.6292713096988286,1,2,Komunitas 2
+Grille,Part,531,870,0.0185,0.6292713096988286,3,4,Komunitas 4
+Cracked,Damage,67,733,0.0173,1.973162812040575,5,2,Komunitas 2
+Tail-light,Part,470,678,0.0156,0.6292713096988286,1,1,Komunitas 1
+Back-bumper,Part,441,625,0.0148,0.6292713096988286,1,1,Komunitas 1
+License-plate,Part,368,604,0.0145,0.6292713096988286,3,2,Komunitas 2
+Trunk,Part,351,530,0.0133,0.6292713096988286,1,1,Komunitas 1
+Back-windshield,Part,270,376,0.011,0.6292713096988286,1,2,Komunitas 2

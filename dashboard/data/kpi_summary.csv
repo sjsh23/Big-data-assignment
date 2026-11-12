@@ -1,0 +1,19 @@
+metric,value
+Baris masuk Curated Zone,97712.0
+Baris ditandai,301.0
+Persen ditandai,0.308
+Ambang quality gate (persen),5.0
+Baris bersih untuk ML,97411.0
+Path gambar unik,1371.0
+Path gambar hilang,0.0
+Listing di test set,19959.0
+Ditandai: zero_engine_size,266.0
+Ditandai: mpg_below_10,33.0
+Ditandai: year_before_1990,1.0
+Ditandai: year_after_collection,1.0
+Graph: gambar dengan label kerusakan dan part,441.0
+Graph frekuensi: edge,196.0
+Graph frekuensi: modularity Louvain,0.001
+Graph asosiasi: edge,33.0
+Graph asosiasi: komunitas Louvain,4.0
+Graph asosiasi: modularity Louvain,0.371

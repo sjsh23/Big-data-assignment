@@ -29,6 +29,8 @@ with DAG(
     sp = BashOperator(task_id="train_spark_mllib", bash_command=f"{PY} s06_train_spark_mllib.py")
     ev = BashOperator(task_id="evaluate", bash_command=f"{PY} s07_evaluate.py")
     graph = BashOperator(task_id="graph_analytics", bash_command=f"{PY} s08_graph_analytics.py")
+    export = BashOperator(task_id="export_dashboard", bash_command=f"{PY} s09_export_dashboard.py")
 
     ingest >> curate >> [serve, prep, graph]
     prep >> [sk, sp] >> ev
+    [serve, ev, graph] >> export

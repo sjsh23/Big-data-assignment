@@ -1,0 +1,11 @@
+# Tema Streamlit untuk dashboard/app.py, meniru tampilan Power BI
+[theme]
+base = "light"
+primaryColor = "#118DFF"
+backgroundColor = "#EAEAEA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#252423"
+font = "sans serif"
+
+[client]
+toolbarMode = "viewer"

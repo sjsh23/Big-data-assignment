@@ -2,31 +2,41 @@
 .venv/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
 # ===== Dataset asli dari Kaggle (besar, unduh dari link di README) =====
 car damages images/
 Uk selling cars/
 
-
 # ===== Lakehouse =====
-# Folder lakehouse/ IKUT di-upload sebagai bukti hasil pipeline.
+# Folder lakehouse/ ikut di-upload sebagai bukti hasil pipeline.
 # File .crc hanya checksum Hadoop, tidak diperlukan untuk membaca tabel
 *.crc
 
-# ===== File sementara Spark =====
+# ===== File sementara Spark dan log eksekusi =====
 outputs/checkpoints/
 outputs/_env_check/
+outputs/pipeline_run_log.tsv
 spark-warehouse/
 metastore_db/
 derby.log
+*.log
 
-# ===== Laporan dan file Office (dikumpulkan terpisah) =====
+# ===== Streamlit =====
+.streamlit/secrets.toml
+
+# ===== Laporan, presentasi, dan file Office (dikumpulkan terpisah) =====
 *.docx
 *.pdf
+*.pptx
 ~$*
+
+# ===== Catatan kerja lokal =====
+plan.md
 
 # ===== File sistem dan editor =====
 Thumbs.db
 desktop.ini
+.DS_Store
 .vscode/
 .idea/
